@@ -10,6 +10,8 @@ https://javarevisited.blogspot.com/2017/03/difference-between-first-and-second-l
 
 https://www.baeldung.com/hibernate-second-level-cache
 
+https://www.javaguides.net/2019/01/java-design-patterns-interview-questions-answers.html
+
 Java Guides Youtube Interview Questions :
 
 Spring boot https://youtu.be/M7kxVg7RKKA?si=8ZCgAic-nNDCmy-K
