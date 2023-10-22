@@ -17,3 +17,11 @@ Spring boot https://youtu.be/M7kxVg7RKKA?si=8ZCgAic-nNDCmy-K
 100+ java QA https://youtu.be/KN9BP9y6FKc?si=nKn69I8ulNzfkMmt
 
 25+ Spring Annotations https://youtu.be/AXZkhKTbbWc?si=mokCdBBhmKZ9LfeD
+
+
+Java Techie Youtube :
+
+40+ Spring Annotations https://youtu.be/htyq-mER0AE?si=Fq4oQRZpkSxViwh6a
+
+
+
