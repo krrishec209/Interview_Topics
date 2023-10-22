@@ -12,6 +12,8 @@ https://www.baeldung.com/hibernate-second-level-cache
 
 https://www.javaguides.net/2019/01/java-design-patterns-interview-questions-answers.html
 
+https://stackoverflow.com/questions/17136435/who-implements-connection-resultset-and-statement-interfaces-in-this-java-progr
+
 Java Guides Youtube Interview Questions :
 
 Spring boot https://youtu.be/M7kxVg7RKKA?si=8ZCgAic-nNDCmy-K
