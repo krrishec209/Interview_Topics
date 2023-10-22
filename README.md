@@ -9,3 +9,11 @@ https://www.java67.com/2017/10/difference-between-first-level-and-second-level-c
 https://javarevisited.blogspot.com/2017/03/difference-between-first-and-second-level-cache-in-Hibernate.html#axzz8GUrcL7F6
 
 https://www.baeldung.com/hibernate-second-level-cache
+
+Java Guides Youtube Interview Questions :
+
+Spring boot https://youtu.be/M7kxVg7RKKA?si=8ZCgAic-nNDCmy-K
+
+100+ java QA https://youtu.be/KN9BP9y6FKc?si=nKn69I8ulNzfkMmt
+
+25+ Spring Annotations https://youtu.be/AXZkhKTbbWc?si=mokCdBBhmKZ9LfeD
