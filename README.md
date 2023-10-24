@@ -14,6 +14,9 @@ https://www.javaguides.net/2019/01/java-design-patterns-interview-questions-answ
 
 https://stackoverflow.com/questions/17136435/who-implements-connection-resultset-and-statement-interfaces-in-this-java-progr
 
+https://medium.com/@ersin.yilmaz.aslan/java-implementation-of-must-know-design-patterns-1-e77a5e03e9c4
+
+
 Java Guides Youtube Interview Questions :
 
 Spring boot https://youtu.be/M7kxVg7RKKA?si=8ZCgAic-nNDCmy-K
