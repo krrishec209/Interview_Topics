@@ -16,6 +16,8 @@ https://stackoverflow.com/questions/17136435/who-implements-connection-resultset
 
 https://medium.com/@ersin.yilmaz.aslan/java-implementation-of-must-know-design-patterns-1-e77a5e03e9c4
 
+https://levelup.gitconnected.com/how-we-reduced-our-annual-server-costs-by-80-from-1m-to-200k-by-moving-away-from-aws-2b98cbd21b46
+
 
 Java Guides Youtube Interview Questions :
 
