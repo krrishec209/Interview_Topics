@@ -40,6 +40,11 @@ https://dzone.com/articles/dependency-injection-implementation-in-core-java-1
 
 https://faun.pub/solution-for-scoped-bean-injection-problem-in-spring-91de3c9daa20
 
+*******
+
+https://www.baeldung.com/spring-vs-spring-boot
+https://spring.io/blog/2015/06/17/devtools-in-spring-boot-1-3#livereload
+
 
 
 
