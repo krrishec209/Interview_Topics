@@ -36,6 +36,9 @@ Java Techie Youtube :
 
 https://dzone.com/articles/dependency-injection-implementation-in-core-java-1
 
+******
+
+https://faun.pub/solution-for-scoped-bean-injection-problem-in-spring-91de3c9daa20
 
 
 
