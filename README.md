@@ -18,10 +18,19 @@ https://medium.com/@ersin.yilmaz.aslan/java-implementation-of-must-know-design-p
 
 https://levelup.gitconnected.com/how-we-reduced-our-annual-server-costs-by-80-from-1m-to-200k-by-moving-away-from-aws-2b98cbd21b46
 
+https://stackoverflow.com/questions/39890849/what-exactly-is-field-injection-and-how-to-avoid-it
+
+https://www.baeldung.com/java-classloaders
+
 
 Java Guides Youtube Interview Questions :
 
 Spring boot https://youtu.be/M7kxVg7RKKA?si=8ZCgAic-nNDCmy-K
+
+Spring boot interview mastery part1 https://youtu.be/-_tPeb3VE6w?si=8roFvaYln6_xTME4
+
+Spring boot interview mastery part2 https://youtu.be/IdTdgTBXlFw?si=eJFBH90p_2vwWmHy
+
 
 100+ java QA https://youtu.be/KN9BP9y6FKc?si=nKn69I8ulNzfkMmt
 
