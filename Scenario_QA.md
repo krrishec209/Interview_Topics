@@ -98,3 +98,36 @@ For read-only tables: Use @Immutable.
 
 
 https://www.linkedin.com/posts/ravindra-v-s-223993228_jpa-java-springboot-activity-7297298692967972866-fcU2?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARSzbgBGEbWHnTkxyPnkFaeZcnK-pW0lqg
+
+*******************
+
+
+🚀 Scenario Based Interview Question: Microservices🚀
+
+Imagine this scenario: You have three independent microservices—Service A, Service B, and Service C—that process a request sequentially.
+
+Service A receives the client request, processes it, and commits its transaction before passing it to Service B.
+
+Service B does the same and then forwards the request to Service C.
+
+Service C finalizes the process by committing its own transaction.
+
+The twist? If any service fails (say, Service C), you need to roll back the transactions of all preceding services (Service A and Service B) to maintain overall system consistency. In other words, a failure in one service requires a cascading rollback across the entire workflow.
+
+Interview Question: How would you design or enhance this system to ensure that a failure in any microservice triggers a rollback of all previous transactions?
+
+Key points to consider:
+Design Patterns: Would you leverage the Saga Pattern with compensating transactions, or opt for a distributed commit protocol like Two-Phase Commit?
+
+Implementation Strategies: How can you ensure reliable execution of compensating actions, especially under partial failures or network issues?
+
+Trade-offs: What are the performance implications and complexity trade-offs between different approaches?
+
+Resilience: How would you monitor, log, and handle unforeseen failures during the rollback process?
+
+This scenario challenges you to think about reliable distributed transaction management, balancing consistency, performance, and fault tolerance in a microservices architecture.
+
+💡 What are your thoughts?
+ Have you tackled similar challenges in your projects? Share your insights and experiences below!
+
+ https://www.linkedin.com/posts/ravindra-v-s-223993228_microservices-distributedsystems-softwarearchitecture-activity-7295440139906953217-Vrny?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARSzbgBGEbWHnTkxyPnkFaeZcnK-pW0lqg
