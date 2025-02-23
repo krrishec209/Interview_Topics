@@ -159,3 +159,9 @@ Top companies love these real-world scenario-based questions! Master them to cra
 
 
  https://www.linkedin.com/posts/neha-dhameniya-8648a2128_java-microservices-springboot-activity-7293231185831284736-GWDX?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARSzbgBGEbWHnTkxyPnkFaeZcnK-pW0lqg
+
+
+*******************
+
+https://www.java-success.com/java-scenarios-based-interview-questions-answers/
+https://www.java-success.com/category/key-areas/0003-16-key-areas/03-yl-judgingexperience/
