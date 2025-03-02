@@ -264,3 +264,30 @@ Java remains a powerful choice for backend development, and staying updated with
 For experienced Java developers, mastering functional programming, modern frameworks, and cloud-native technologies is essential in 2025.
 
 https://www.linkedin.com/posts/neha-dhameniya-8648a2128_java-techstack-springboot-activity-7292534862509490177-tTXb?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARSzbgBGEbWHnTkxyPnkFaeZcnK-pW0lqg
+
+
+***************************************
+
+
+Real time Core Java Interview Questions 
+
+1.     Can a constructor be private? In which scenarios is it useful?
+2.     What is the use of the super keyword? How is it utilized in a Spring Boot microservices architecture?
+3.     How does an interface differ from an abstract class? Provide an example where you implemented an interface in your project.
+4.     Can a Java class implement multiple interfaces? How does Spring handle multiple interface implementations in dependency injection?
+5.     How to use this() to call another constructor inside the same class?
+6.     Can this be used in a static method? Why or why not?
+7.     How did you use this in your Spring Boot project while handling dependency injection or model objects?
+8.     How to use super() to call a parent class constructor?
+9.     In your project, have you extended any classes where you needed super()? Explain with an example.
+10.  What happens if you don’t explicitly call super() in a constructor?
+11.  How does constructor chaining work in Java? Explain with an example.
+12.  What are the differences between default, parameterized, and copy constructors?
+13.  How does Spring Boot use constructors for dependency injection?
+14.  Can we call a constructor explicitly from another constructor? How?
+15.  What is a private constructor? How is it used in Singleton design patterns?
+16.  How did you use constructors in your Microservices project (Spring Beans, Models, or Controllers)?
+
+https://www.linkedin.com/feed/update/urn:li:activity:7301951442238521344?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARSzbgBGEbWHnTkxyPnkFaeZcnK-pW0lqg
+
+
