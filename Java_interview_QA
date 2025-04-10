@@ -138,3 +138,104 @@ Can you give an example of the Command pattern in Java?
 What is the Iterator pattern, and how is it used in Java?
 Can you give an example of the Iterator pattern in Java?
 Please understand that just memorizing the concepts will not help, you should do practice and be ready for follow up questions during interview.
+
+*************************
+
+Paypal Interview experience Java 8+ Years (55 mins)
+
+
+1. Core Java & OOP
+
+What is the difference between HashMap, ConcurrentHashMap, and Hashtable?
+
+How does Java handle memory management? Explain GC (Garbage Collection) in detail.
+
+Explain the working of the synchronized keyword. When would you use ReentrantLock over it?
+
+Java 8: How do Stream, map, flatMap, and collect work?
+
+What’s the difference between final, finally, and finalize()?
+
+How do you design an immutable class in Java?
+
+
+2. Multithreading & Concurrency
+
+How would you solve the Producer-Consumer problem in Java?
+
+What is the difference between wait(), notify(), and notifyAll()?
+
+Explain the Executor framework. What is the difference between Callable and Runnable?
+
+How would you ensure thread safety when updating shared resources?
+
+What’s the difference between CountDownLatch and CyclicBarrier?
+
+
+3. Data Structures & Algorithms (Coding)
+
+Implement an LRU Cache (Leetcode hard).
+
+Find the longest substring without repeating characters.
+
+Given a binary tree, print the right view of the tree.
+
+Design a rate limiter for an API.
+
+Find the top K frequent elements in a stream of numbers.
+
+Implement a thread-safe singleton in Java.
+
+
+4. System Design (High-Level & Low-Level)
+
+Design a scalable URL shortening service (like bit.ly).
+
+Design a payment processing system with retry and idempotency.
+
+How would you design an email notification system?
+
+What are the pros and cons of microservices architecture?
+
+How would you implement caching in a read-heavy system?
+
+Design an API rate limiter using Redis.
+
+
+5. Spring Boot & Microservices
+
+How do you manage configurations across multiple microservices?
+
+What is Spring Security? How does it integrate with OAuth2?
+
+What is the difference between @Component, @Service, and @Repository?
+
+How does Spring Boot auto-configuration work?
+
+What is the Circuit Breaker pattern and how do you implement it in Spring Cloud?
+
+
+6. Database & Persistence
+
+What is the N+1 select problem in JPA? How do you resolve it?
+
+Difference between lazy and eager fetching in Hibernate.
+
+How do transactions work in Spring? What is propagation?
+
+Explain indexing in databases. When would you use composite indexes?
+
+How would you store logs from multiple services in a scalable way?
+
+
+7. DevOps & Tools
+
+How do you monitor microservices in production?
+
+What tools do you use for CI/CD?
+
+How do you manage logging in distributed systems?
+
+How would you handle secrets and sensitive data in microservices?
+
+https://www.linkedin.com/posts/ravindra-v-s-223993228_javadeveloper-backenddevelopment-springboot-activity-7315258463050178562-slLB?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARSzbgBGEbWHnTkxyPnkFaeZcnK-pW0lqg
