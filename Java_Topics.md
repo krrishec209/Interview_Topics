@@ -161,3 +161,41 @@ https://www.linkedin.com/posts/rajatgajbhiye_as-a-java-developer-please-learn-1-
  - The interviewer always wanted to ask about some design patterns, it maybe Normal design patterns like singleton, factory, or observer patterns to know that you can use these in coding.
 
  - https://www.linkedin.com/posts/sahilraj-developer_java-developer-interview-question-formate-activity-7315779628365721601-ORyK?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARSzbgBGEbWHnTkxyPnkFaeZcnK-pW0lqg
+
+
+***********************************************************
+
+
+𝗜𝗻𝘁𝗲𝗿𝘃𝗶𝗲𝘄 𝗣𝗿𝗲𝗽𝗮𝗿𝗮𝘁𝗶𝗼𝗻 𝗚𝘂𝗶𝗱𝗲 𝗳𝗼𝗿 𝗝𝗮𝘃𝗮, 𝗦𝗽𝗿𝗶𝗻𝗴 𝗕𝗼𝗼𝘁, 𝗮𝗻𝗱 𝗠𝗶𝗰𝗿𝗼𝘀𝗲𝗿𝘃𝗶𝗰𝗲𝘀 
+
+Preparing for your next big interview? Whether you’re aiming for Java, Spring Boot, or Microservices roles, having a structured roadmap is key. To help you ace it, I’ve put together an essential guide along with a handy PDF resource you can download for detailed prep.
+
+📂 𝗧𝗼𝗽𝗶𝗰𝘀 𝗖𝗼𝘃𝗲𝗿𝗲𝗱 𝗶𝗻 𝘁𝗵𝗲 𝗣𝗗𝗙:-
+
+Java Core Concepts
+Advanced Java Features (Java 8+)
+Spring Boot Annotations & REST API Design
+Microservices Principles and Tools
+Database Integration, Security Basics, and More!
+
+➤ 𝗝𝗮𝘃𝗮 𝗘𝘀𝘀𝗲𝗻𝘁𝗶𝗮𝗹𝘀
+Mastering Java is fundamental. Be ready to tackle:-
+✔ Core Concepts: OOP principles like inheritance, polymorphism, and encapsulation.
+✔ Java 8 Features: Streams, Lambdas, Optional, and functional interfaces.
+✔ Data Structures & Algorithms: Collections framework, time complexities, and algorithm design.
+
+➤ 𝗦𝗽𝗿𝗶𝗻𝗴 𝗕𝗼𝗼𝘁 𝗠𝗮𝘀𝘁𝗲𝗿𝘆
+Spring Boot powers modern REST APIs and microservices. Focus on:-
+✔ Key Annotations: @RestController, @Autowired, and their inner workings.
+✔ REST API Design: Building and testing APIs with proper error handling.
+✔ Database Integration: Master Spring Data JPA, relationships, and custom queries.
+✔ Security Basics: JWT, role-based access, and Spring Security essentials.
+
+➤ 𝗠𝗶𝗰𝗿𝗼𝘀𝗲𝗿𝘃𝗶𝗰𝗲𝘀 𝗖𝗼𝗻𝗰𝗲𝗽𝘁𝘀
+Microservices are the backbone of scalable systems Prep on:-
+✔ Architecture Principles: Service discovery, load balancing, and API gateways.
+✔ Service Communication: REST vs. messaging (RabbitMQ, Kafka).
+✔ Spring Cloud: Eureka, Gateway, and resilience patterns with Hystrix.
+✔ Monitoring & Observability: Tools like Prometheus and Zipkin for tracing and metrics.
+
+https://www.linkedin.com/posts/ashish-pratap-singh_java-software-developer-topics-activity-7316754085980880896-T-cD?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARSzbgBGEbWHnTkxyPnkFaeZcnK-pW0lqg
