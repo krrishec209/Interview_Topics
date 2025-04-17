@@ -98,3 +98,85 @@ Topics covered: SOLID, ACID, System design key concepts & Leetcode patterns.
 
 
 https://www.linkedin.com/posts/ravindrabhargava_i-wish-someone-had-given-me-this-cheat-sheet-activity-7317552346538864643-Aeu0?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARSzbgBGEbWHnTkxyPnkFaeZcnK-pW0lqg
+
+*****************
+
+Finding the right resource and topics was a big challenge. Listing everything i studied with their best resources below.
+
+𝟭. 𝗗𝗮𝘁𝗮 𝗦𝘁𝗿𝘂𝗰𝘁𝘂𝗿𝗲𝘀 𝗮𝗻𝗱 𝗔𝗹𝗴𝗼𝗿𝗶𝘁𝗵𝗺𝘀 (𝗗𝗦𝗔)
+
+Topics to study: 
+
+ • Arrays, Strings, Linked Lists
+ • Stacks, Queues, Deques
+ • HashMaps, HashSets
+ • Trees (Binary Trees, BST, Trie)
+ • Graphs (BFS, DFS, shortest path, cycle detection)
+ • Heaps / Priority Queues
+ • Sliding Window, Two Pointers, Backtracking
+ • Dynamic Programming (Tabulation, Memoization)
+ • Sorting & Searching (Binary Search variants)
+
+🛠 𝗥𝗲𝘀𝗼𝘂𝗿𝗰𝗲𝘀 𝘂𝘀𝗲𝗱: LeetCode, TakeUforward, Neetcode(dot)io
+
+𝟮. 𝗖𝗼𝗿𝗲 𝗝𝗮𝘃𝗮 (𝗝𝗮𝘃𝗮 𝟴+)
+
+ • OOP principles
+ • Collections framework (List, Map, Set, Queue)
+ • Concurrency and Multithreading
+ • Java Streams and Lambda expressions
+ • Functional Interfaces
+ • Exception handling
+ • Memory Management, Garbage Collection
+ • Design Patterns (Singleton, Factory, Strategy, etc.)
+
+𝗥𝗲𝘀𝗼𝘂𝗿𝗰𝗲𝘀 𝘂𝘀𝗲𝗱: Concept and coding YT channel, GFG, chatgpt
+
+𝟯. 𝗦𝗽𝗿𝗶𝗻𝗴 & 𝗕𝗮𝗰𝗸𝗲𝗻𝗱 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗺𝗲𝗻𝘁
+
+ • Spring Core
+ • Spring Boot (auto-configuration, starters, profiles)
+ • Spring MVC (REST APIs, controllers, exception handling)
+ • Validation, Logging, Caching
+ • Unit Testing (JUnit5, Mockito)
+ • Spring AOP
+ • Swagger/OpenAPI
+ • REST vs SOAP, Idempotency, API versioning
+
+𝗥𝗲𝘀𝗼𝘂𝗿𝗰𝗲𝘀 𝘂𝘀𝗲𝗱 : Baeldung website, Concept and coding YT channel, chatGpt.
+
+𝟰. 𝗟𝗼𝘄-𝗟𝗲𝘃𝗲𝗹 𝗗𝗲𝘀𝗶𝗴𝗻 (𝗟𝗟𝗗)
+
+ • Object-oriented design principles (SOLID, DRY, YAGNI)
+ • Design Patterns (mentioned above)
+ • Class Diagrams, Sequence Diagrams
+ • Design real-world systems: Parking Lot, Elevator, Splitwise, BookMyShow, etc.
+
+𝗥𝗲𝘀𝗼𝘂𝗿𝗰𝗲𝘀 𝘂𝘀𝗲𝗱: Awesome LLD git repo, Concept and coding YT channel, tech granth YT channel.
+
+𝟱. 𝗛𝗶𝗴𝗵-𝗟𝗲𝘃𝗲𝗹 𝗗𝗲𝘀𝗶𝗴𝗻 (𝗛𝗟𝗗)
+
+ • Basics of distributed systems
+ • Load Balancing, Caching, Database Sharding
+ • Microservices architecture (communication, service discovery, circuit breakers)
+ • Messaging Queues (Kafka, RabbitMQ)
+ • Scalability, Availability, CAP Theorem
+ • Design problems: URL shortener, Rate limiter, WhatsApp, etc.
+
+𝗥𝗲𝘀𝗼𝘂𝗿𝗰𝗲𝘀 𝘂𝘀𝗲𝗱 : Awesome HLD git repo, Alex Xu's pdf book, Concept and coding YT channel, hello interview YT channel and website.
+
+𝟲. 𝗦𝗼𝗳𝘁 𝗦𝗸𝗶𝗹𝗹𝘀 & 𝗜𝗻𝘁𝗲𝗿𝘃𝗶𝗲𝘄 𝗣𝗿𝗲𝗽𝗮𝗿𝗮𝘁𝗶𝗼𝗻
+
+ • STAR format for behavioral questions
+ • Systematic problem-solving approach
+ • Good communication for explaining thought process
+
+𝗥𝗲𝘀𝗼𝘂𝗿𝗰𝗲𝘀 𝘂𝘀𝗲𝗱: Random internet and chatGpt.
+
+If you found this useful, do like and share it 🙌🏻
+
+Follow Ankur Kesharwani for more such resources💯
+
+For any interview help lets connect - https://lnkd.in/grXPhqVc
+
+https://www.linkedin.com/posts/kesari007_sde2-interviewprep-sde3-activity-7318490900001705986-Prn1?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARSzbgBGEbWHnTkxyPnkFaeZcnK-pW0lqg
