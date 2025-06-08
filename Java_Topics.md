@@ -199,3 +199,45 @@ Microservices are the backbone of scalable systems Prep on:-
 ✔ Monitoring & Observability: Tools like Prometheus and Zipkin for tracing and metrics.
 
 https://www.linkedin.com/posts/ashish-pratap-singh_java-software-developer-topics-activity-7316754085980880896-T-cD?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARSzbgBGEbWHnTkxyPnkFaeZcnK-pW0lqg
+
+
+******************
+
+
+Why Constructor Injection is Better than Field Injection in Spring Boot
+
+When I started with Spring Boot, I used @Autowired on fields — because it worked. But here’s what I learned-> 
+
+1- Clear dependencies —->
+Constructor injection lists all required dependencies in one place — the constructor. Easy to read, easy to understand.
+
+2- Immutability —->
+You can make fields final. No accidental changes. Safer code.
+
+3- Test-friendly —->
+Unit testing becomes easier. No need for Spring context or reflection to inject mocks.
+
+4- Compile-time safety —->
+Missing dependencies? Constructor injection fails at compile time — not in production with a NullPointerException.
+
+5- Less Spring-coupled—->
+Your code becomes more reusable outside Spring — no @Autowired everywhere.
+
+💡 Bonus: Since Spring 4.3, you don’t even need @Autowired if there’s only one constructor.
+
+@Service
+public class UserService {
+ private final UserRepository repo;
+
+ public UserService(UserRepository repo) {
+ this.repo = repo;
+ }
+}
+—-
+
+Field injections->
+
+@Autowired
+private UserRepository repo;
+
+https://www.linkedin.com/posts/kesharwani-ravi_springboot-cleancode-backenddevelopment-activity-7334702766667218944-Tae8?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARSzbgBGEbWHnTkxyPnkFaeZcnK-pW0lqg
