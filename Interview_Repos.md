@@ -21,7 +21,7 @@ https://www.linkedin.com/posts/anshul-chhabra-46ba9b113_13-github-repos-resource
 
 
 
-*****************8
+********************************************
 
 If you are a job seeker in the U.S. bookmark these 12 right now to land a job in 2025.
 
