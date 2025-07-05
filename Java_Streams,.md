@@ -24,3 +24,7 @@ In parallel streams, preserving this order can negatively impact performance, es
 If the order is not required, use .unordered() to relax ordering constraints and allow the stream to optimize element processing more freely.
 
 https://www.linkedin.com/posts/activity-7335263045591416832-4_Hq?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARSzbgBGEbWHnTkxyPnkFaeZcnK-pW0lqg
+
+******************
+
+https://medium.com/@javageeksociety/arrays-stream-vs-stream-of-in-java-8-be7d6b757e4e
