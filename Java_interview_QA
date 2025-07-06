@@ -295,3 +295,92 @@ Master these 𝘧𝘳𝘦𝘲𝘶𝘦𝘯𝘵𝘭𝘺 𝘢𝘴𝘬𝘦𝘥 𝘫�
 🔸 Use of wait() and notify() methods in threads?
 🔸 Synchronized vs. volatile in Java?
 🔸 Difference between notify() and notifyAll()?
+
+**************
+
+1.What are the features of Java 8 and java 17 ?
+2. what is optional class in java 8 and how it works..
+3.what is abstraction and encapsulation in java
+4.Difference between inheritance and encapsulation in java
+5.What is the difference between marker interface and functional interface?
+6.What is the diamond problem in Java?
+7.Can we override a static method in Java?
+8.Can we extend multiple classes in Java?
+9. Group Strings by First Character
+
+Input: ["apple", "banana", "avocado", "blueberry"]
+Output: {a=[apple, avocado], b=[banana, blueberry]}
+
+10.Find the Frequency of Each Word in a List
+Input: ["apple", "banana", "apple", "mango"]
+
+Output: {apple=2, banana=1, mango=1}
+
+ 11. what is map and flatmap in java
+
+****
+
+Java Stream API Interview Questions for 3+ Years Experience
+
+Q1. How would you find the second highest salary from a list of employees using Java Streams?
+
+Q2. Explain how peek() works in streams. When should it be used?
+
+Q3. How would you use streams to flatten a List<List<String>> into a single List<String>?
+
+Q4. What's the difference between reduce() and collect() in Java Streams?
+
+Q5. How do you handle exceptions inside a Stream pipeline?
+
+Q6. How would you sort a list of custom objects using streams based on multiple fields?
+Q7. How do you count duplicate elements in a list using Java Streams?
+
+Q8. What is the difference between Collectors.groupingBy() and Collectors.partitioningBy()?
+
+Q9. How would you convert a List<Employee> into a Map<Department, List<Employee>> using streams?
+
+Q10. How do you perform a filter + map + reduce in one stream pipeline?
+
+https://www.linkedin.com/posts/shivani-rai-848249210_javainterview-streams-codechallenge-activity-7345777141172551681-5yNH?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARSzbgBGEbWHnTkxyPnkFaeZcnK-pW0lqg
+
+*****************
+
+📌 hashtag#Java hashtag#Stream API Interview Questions for #3+ Years Experience
+
+Q1. What is the difference between map() and flatMap() in Java Streams?
+📌 Use-case based answers are appreciated in interviews.
+
+Q2. How does short-circuiting work in Java Streams?
+🧠 Explain with methods like limit(), findFirst(), anyMatch().
+
+Q3. What are the performance implications of using streams vs traditional for-loops in large datasets?
+
+Q4. Can a stream be reused? Why or why not?
+🔁 Hint: Stream is closed after a terminal operation.
+
+Q5. What is the difference between sequential and parallel streams in Java?
+⚠️ When should you avoid parallel streams?
+
+Q6. How do intermediate and terminal operations work in a Stream pipeline?
+
+Q7. How would you remove duplicates from a list of custom objects using streams?
+
+Q8. What is the role of Collectors.toMap()? What happens when keys are duplicated?
+
+Q9. Explain lazy evaluation in Java Streams.
+
+Q10. How would you group a list of objects by a specific property using streams?
+🗂️ Example: Grouping employees by department.
+.
+
+🧠 Common Methods Cheat-sheet 
+│ • Select/Transform → filter(), map() 
+│ • Flatten → flatMap() 
+│ • Unique → distinct() 
+│ • Sort → sorted() 
+│ • Slice → limit(), skip() 
+│ • Match-checks → anyMatch()
+│ • Debug-inspect → peek() 
+│ • Aggregate → collect(), reduce(), count() ...
+
+https://www.linkedin.com/posts/shivani-rai-848249210_java-stream-javainterview-activity-7345031319556407296-MVca?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARSzbgBGEbWHnTkxyPnkFaeZcnK-pW0lqg
