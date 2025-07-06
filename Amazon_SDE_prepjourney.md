@@ -21,3 +21,74 @@ A big thanks to NavDeep (Seek) Singh (NeetCode), Raj Vikramaditya(takeUforward),
 
 https://www.linkedin.com/posts/vcr11_amazonsdeintern-leetcode-neetcode-activity-7293496816254259200-LKeN?utm_source=share&utm_medium=member_desktop
 
+
+**********
+
+This software engineer joined Amazon as an SDE-2 after seven years of starting his career and accomplished his dream in 2025. From working as a freelancer to cracking Groww and Upstox to now Amazon… 
+
+→ Background
+
+\-- 7 years of experience 
+\-- Decided to aim for FAANG in 2025.
+\-- Cold-applied to Amazon. The recruiter replied within 24 hours.
+\-- Offer: 40LPA+
+
+→ OA & DSA Prep
+
+\-- Cleared the online assessment (OA) easily. One of the Leetcode questions had already come up in prep; the other was straightforward.
+
+\-- Key: Had already solved 700+ Leetcode questions. Held the 365-day streak badge.
+
+\-- Practiced DSA every day for a year. “Every 100 problems, his skills leveled up.”
+
+\-- If you’re prepping for interviews. I would recommend this DSA Pattern Sheet (https://bit.ly/45qggma)
+
+→ Interview Loop: 4 Rounds
+
+\-- Each round had 25–30 minutes of LP (Leadership Principles).
+\-- Questions were pulled from the Amazon LP question bank (Google it).
+\-- Technical rounds were a mix of coding, low-level/OOD, and system design.
+
+→ Low-Level Design / OOD
+
+\-- Example: Design a puppy shelter, focused on clean class design, method signatures, and writing a few simple functions to show approach.
+
+→ System Design
+
+\-- Example 1: Online library (think Ticketmaster).
+\-- Example 2: Large data overlap problem, couldn’t fit into memory (pattern: LRU cache).
+\-- Tip: Always clarify the question a lot before diving in. Sometimes, it's a classic problem in disguise.
+
+→ Study Tips
+
+\-- If you’re stuck, don’t waste hours reinventing the wheel. Look up the solution, learn the pattern, and move on.
+\-- But if you recognize the approach, push yourself, try to solve it before peeking.
+
+→ Top Resources Used
+
+\-- DSA:
+ • Neetcode
+ • DSA Pattern Sheet – https://bit.ly/45qggma
+
+\-- OOD:
+ • Awesome Low-Level Design GitHub
+ •Grokking the OOD Interview – designgurus
+
+\-- System Design:
+ • [System Design Primer GitHub]
+ • [Grokking Modern System Design – educative]
+ • [Alex Wu’s System Design Interview Vol. 1 & 2]
+ • [Designing Data-Intensive Applications, Martin Kleppmann]
+
+\-- Behavioral:
+ • Dan Croitor YouTube
+ • Amazon Interview Whizz
+ • Jeff H Sipe PI Youtube 
+ • Consolidated AIQB Reference Guide
+
+→ Key Lessons
+\-- Consistency trumps talent. Doing Leetcode for a year beats cramming Neetcode in a month.
+\-- Quantity matters: every 100 problems = noticeable jump in skill.
+\-- Habits compound: what you do daily shapes your success years from now.
+
+https://www.linkedin.com/posts/parikh-jain-79568798_this-software-engineer-joined-amazon-as-an-activity-7345685695161618432-YjDy?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARSzbgBGEbWHnTkxyPnkFaeZcnK-pW0lqg
