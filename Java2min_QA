@@ -36,3 +36,124 @@ From values: 𝐒𝐭𝐫𝐞𝐚𝐦.𝐨𝐟(...)
 For more such Java nuggets, follow Paras Gupta and feel free to share your use cases in the comments! 🙌
 
 https://www.linkedin.com/posts/paras-gupta-0042b01b0_java-streamsapi-javastreams-activity-7346045511386218500-mBff?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARSzbgBGEbWHnTkxyPnkFaeZcnK-pW0lqg
+
+***************
+
+Interviewer: "You have 2 minutes. Please brief HashSet vs HashMap in Java".
+
+My answer: Challenge accepted, Let's go!
+
+When working with Java collections, choosing between 🔹 𝐇𝐚𝐬𝐡𝐒𝐞𝐭 and 🔹 𝐇𝐚𝐬𝐡𝐌𝐚𝐩 depends on your use case. Both use 𝐡𝐚𝐬𝐡𝐢𝐧𝐠 internally but serve different purposes. 
+
+Here's the breakdown:
+🔹 𝐖𝐡𝐚𝐭 𝐀𝐫𝐞 𝐓𝐡𝐞𝐲?
+ ✅ 𝐇𝐚𝐬𝐡𝐒𝐞𝐭 → Stores only 𝐮𝐧𝐢𝐪𝐮𝐞 𝐞𝐥𝐞𝐦𝐞𝐧𝐭𝐬, doesn't allow duplicates, and permits only 𝐨𝐧𝐞 𝐧𝐮𝐥𝐥 𝐯𝐚𝐥𝐮𝐞. Internally, it's built using a 𝐇𝐚𝐬𝐡𝐌𝐚𝐩 where elements act as keys and a 𝐝𝐮𝐦𝐦𝐲 𝐯𝐚𝐥𝐮𝐞 is used.
+
+✅ 𝐇𝐚𝐬𝐡𝐌𝐚𝐩 → A 𝐤𝐞𝐲-𝐯𝐚𝐥𝐮𝐞 𝐩𝐚𝐢𝐫 𝐬𝐭𝐨𝐫𝐞. Keys are unique, values can be duplicates. Allows 𝐨𝐧𝐞 null key and 𝐦𝐮𝐥𝐭𝐢𝐩𝐥𝐞 null values.
+
+🔹 𝐈𝐧𝐭𝐞𝐫𝐧𝐚𝐥 𝐖𝐨𝐫𝐤𝐢𝐧𝐠:
+1️⃣ 𝐇𝐚𝐬𝐡𝐒𝐞𝐭 → Backed by 𝐇𝐚𝐬𝐡𝐌𝐚𝐩, every element becomes a 𝐤𝐞𝐲 in the map with a constant dummy value (e.g., PRESENT). Ensures uniqueness and offers 𝐟𝐚𝐬𝐭 𝐥𝐨𝐨𝐤𝐮𝐩.
+
+2️⃣ 𝐇𝐚𝐬𝐡𝐌𝐚𝐩 → Computes 𝐡𝐚𝐬𝐡 of keys and stores entries in an array of buckets.
+ 🔸 On 𝐡𝐚𝐬𝐡 𝐜𝐨𝐥𝐥𝐢𝐬𝐢𝐨𝐧𝐬, keys are chained in a 𝐥𝐢𝐧𝐤𝐞𝐝 𝐥𝐢𝐬𝐭.
+ 🔸 If a bucket exceeds 8 elements, it becomes a 𝐛𝐚𝐥𝐚𝐧𝐜𝐞𝐝 𝐭𝐫𝐞𝐞 for better performance.
+
+🔹 𝐏𝐞𝐫𝐟𝐨𝐫𝐦𝐚𝐧𝐜𝐞 & 𝐓𝐢𝐦𝐞 𝐂𝐨𝐦𝐩𝐥𝐞𝐱𝐢𝐭𝐲
+ ⚡ Both provide 𝐎(𝟏) average time for insert, search, delete.
+ ⚠ Worst-case: 𝐎(𝐥𝐨𝐠 𝐧) with Java 8+ due to tree structure fallback on hash collision.
+
+🔹 𝐌𝐞𝐦𝐨𝐫𝐲 𝐔𝐬𝐚𝐠𝐞
+ ✔ 𝐇𝐚𝐬𝐡𝐒𝐞𝐭 uses less memory than HashMap (stores only keys), but more than arrays/lists due to hashing overhead.
+ ✔ 𝐇𝐚𝐬𝐡𝐌𝐚𝐩 holds both 𝐤𝐞𝐲𝐬 𝐚𝐧𝐝 𝐯𝐚𝐥𝐮𝐞𝐬, hence heavier.
+
+🔹 𝐖𝐡𝐞𝐧 𝐭𝐨 𝐔𝐬𝐞 𝐖𝐡𝐚𝐭?
+ ✔ Use 𝐇𝐚𝐬𝐡𝐒𝐞𝐭 → when you need only 𝐮𝐧𝐢𝐪𝐮𝐞 𝐞𝐥𝐞𝐦𝐞𝐧𝐭𝐬, no mapping required.
+ ✔ Use 𝐇𝐚𝐬𝐡𝐌𝐚𝐩 → for 𝐤𝐞𝐲-𝐛𝐚𝐬𝐞𝐝 𝐚𝐜𝐜𝐞𝐬𝐬 with values attached.
+Both are optimized for performance, and Java 8+ ensures efficient worst-case handling with tree-based collision resolution. 🚀
+
+𝐅𝐨𝐮𝐧𝐝 𝐢𝐭 𝐇𝐞𝐥𝐩𝐟𝐮𝐥?
+For more such Java insights, follow Paras Gupta, and feel free to drop your real-world use cases in the comments! 🙌
+
+https://www.linkedin.com/posts/paras-gupta-0042b01b0_java-hashset-hashmap-activity-7346391219926679552-0zzb?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARSzbgBGEbWHnTkxyPnkFaeZcnK-pW0lqg
+
+**************
+
+👨‍💼 Interviewer: "You have 2 minutes. Brief about Java Constructors – Everything you know!"
+
+ 👨‍💻 My Answer: Challenge accepted. Let’s go!
+
+𝗖𝗼𝗻𝘀𝘁𝗿𝘂𝗰𝘁𝗼𝗿𝘀 are essential for 𝗼𝗯𝗷𝗲𝗰𝘁 𝗶𝗻𝗶𝘁𝗶𝗮𝗹𝗶𝘇𝗮𝘁𝗶𝗼𝗻 in Java. 
+
+Here’s a crisp breakdown for interviews & real-world clarity:
+🔹 𝗖𝗼𝗿𝗲 𝗖𝗼𝗻𝗰𝗲𝗽𝘁𝘀:
+ ✅ 𝗗𝗲𝗳𝗮𝘂𝗹𝘁 𝗖𝗼𝗻𝘀𝘁𝗿𝘂𝗰𝘁𝗼𝗿 – No-arg constructor that initializes default values.
+ ✅ 𝗣𝗮𝗿𝗮𝗺𝗲𝘁𝗲𝗿𝗶𝘇𝗲𝗱 𝗖𝗼𝗻𝘀𝘁𝗿𝘂𝗰𝘁𝗼𝗿 – Accepts arguments for custom initialization.
+ ✅ 𝗢𝘃𝗲𝗿𝗹𝗼𝗮𝗱𝗶𝗻𝗴 – Multiple constructors in a class with different params.
+
+🔍 𝗧𝗿𝗶𝗰𝗸𝘆 𝗜𝗻𝘁𝗲𝗿𝘃𝗶𝗲𝘄 𝗤𝘂𝗲𝘀𝘁𝗶𝗼𝗻:
+🤔 𝗖𝗮𝗻 𝗮 𝗰𝗼𝗻𝘀𝘁𝗿𝘂𝗰𝘁𝗼𝗿 𝗯𝗲 𝘀𝘁𝗮𝘁𝗶𝗰, 𝗳𝗶𝗻𝗮𝗹, 𝗼𝗿 𝗵𝗮𝘃𝗲 𝗮 𝗿𝗲𝘁𝘂𝗿𝗻 𝘁𝘆𝗽𝗲?
+ ✖ 𝗡𝗼!
+static → belongs to class, not object
+final → constructors aren’t inherited
+void or return type → becomes a method, not a constructor
+✅ 𝗕𝘂𝘁 a constructor 𝗰𝗮𝗻 𝘂𝘀𝗲 𝗿𝗲𝘁𝘂𝗿𝗻; 𝘄𝗶𝘁𝗵𝗼𝘂𝘁 𝗮 𝘃𝗮𝗹𝘂𝗲 to 𝗲𝘅𝗶𝘁 𝗲𝗮𝗿𝗹𝘆 when needed.
+
+🔹 𝗥𝘂𝗹𝗲𝘀 𝗧𝗼 𝗥𝗲𝗺𝗲𝗺𝗯𝗲𝗿:
+ 1️⃣ Constructor name = class name
+ 2️⃣ No return type allowed
+ 3️⃣ If no constructor → Java provides default
+ 4️⃣ If any constructor exists → no default provided
+ 5️⃣ Constructors can’t be static, final, abstract
+ 6️⃣ Use this() to call another constructor in the same class
+ 7️⃣ Use super() to call superclass constructor
+ 8️⃣ First line must be this() or super() (if used)
+
+https://www.linkedin.com/posts/paras-gupta-0042b01b0_java-interviewprep-oop-activity-7337324876203995137-6_d4?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARSzbgBGEbWHnTkxyPnkFaeZcnK-pW0lqg
+
+*******
+
+Interviewer: "You have 2 minutes. Do you ever wonder which functional interface goes where in Java Streams?".
+
+My answer: Challenge accepted, Let's go!
+
+Here's your ultimate cheat sheet to connect the dots — stream methods, their matching functional interfaces, and what they’re really doing under the hood 👇
+
+🔹 .filter(𝐏𝐫𝐞𝐝𝐢𝐜𝐚𝐭𝐞<T>)
+ → Uses 𝐏𝐫𝐞𝐝𝐢𝐜𝐚𝐭𝐞 – takes one input, returns a boolean.
+ ✅ Keeps only the elements that satisfy a condition.
+
+🔹 .map(𝐅𝐮𝐧𝐜𝐭𝐢𝐨𝐧<T, R>)
+ → Uses 𝐅𝐮𝐧𝐜𝐭𝐢𝐨𝐧 – takes one input, returns one output.
+ 🔄 Transforms elements (e.g., map User to UserDTO).
+
+🔹 .forEach(𝐂𝐨𝐧𝐬𝐮𝐦𝐞𝐫<T>)
+ → Uses 𝐂𝐨𝐧𝐬𝐮𝐦𝐞𝐫 – takes one input, returns nothing.
+ 🧾 Performs an action on each element (e.g., print, log).
+
+🔹 .peek(𝐂𝐨𝐧𝐬𝐮𝐦𝐞𝐫<T>)
+ → Uses 𝐂𝐨𝐧𝐬𝐮𝐦𝐞𝐫 – like forEach but lazy.
+ 👀 Used for debugging or side-effects within stream flow.
+
+🔹 .sorted(𝐂𝐨𝐦𝐩𝐚𝐫𝐚𝐭𝐨𝐫<T>)
+ → Uses 𝐂𝐨𝐦𝐩𝐚𝐫𝐚𝐭𝐨𝐫 – takes two inputs, returns an int.
+ 📊 Sorts elements using custom logic.
+
+🔹 .anyMatch() / .allMatch() / .noneMatch()
+ → Uses 𝐏𝐫𝐞𝐝𝐢𝐜𝐚𝐭𝐞 – same as in filter.
+ 🔍 Checks conditions across stream elements.
+
+🔹 .collect(𝐂𝐨𝐥𝐥𝐞𝐜𝐭𝐨𝐫)
+ → Uses multiple functional components internally – 𝐒𝐮𝐩𝐩𝐥𝐢𝐞𝐫, 𝐀𝐜𝐜𝐮𝐦𝐮𝐥𝐚𝐭𝐨𝐫, 𝐂𝐨𝐦𝐛𝐢𝐧𝐞𝐫.
+ 📦 Accumulates stream results into collections or other forms.
+
+🔹 .flatMap(𝐅𝐮𝐧𝐜𝐭𝐢𝐨𝐧<T, Stream<R>>)
+ → Uses 𝐅𝐮𝐧𝐜𝐭𝐢𝐨𝐧 – returns a stream from each element.
+ 🪄 Flattens nested structures (e.g., List<List<T>>).
+
+🔹 .generate(𝐒𝐮𝐩𝐩𝐥𝐢𝐞𝐫<T>), .iterate(...)
+ → Uses 𝐒𝐮𝐩𝐩𝐥𝐢𝐞𝐫 – no input, returns output.
+ 🔁 Creates infinite or custom-generated streams.
+
+💡 Understanding which interface powers which method makes Streams more intuitive, readable, and powerful.
+
+https://www.linkedin.com/posts/paras-gupta-0042b01b0_java-streams-functionalprogramming-activity-7314836848231477248-JdKJ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARSzbgBGEbWHnTkxyPnkFaeZcnK-pW0lqg
