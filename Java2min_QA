@@ -157,3 +157,50 @@ Here's your ultimate cheat sheet to connect the dots — stream methods, their m
 💡 Understanding which interface powers which method makes Streams more intuitive, readable, and powerful.
 
 https://www.linkedin.com/posts/paras-gupta-0042b01b0_java-streams-functionalprogramming-activity-7314836848231477248-JdKJ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARSzbgBGEbWHnTkxyPnkFaeZcnK-pW0lqg
+
+*************
+
+Interviewer: "You have 2 minutes. Brief some 𝐂𝐨𝐦𝐦𝐨𝐧 𝐌𝐢𝐬𝐜𝐨𝐧𝐜𝐞𝐩𝐭𝐢𝐨𝐧𝐬 𝐀𝐛𝐨𝐮𝐭 𝐉𝐚𝐯𝐚 𝐒𝐭𝐫𝐞𝐚𝐦𝐬".
+
+My answer: Challenge accepted, Let's go!
+
+𝟏️. 𝐀𝐫𝐞 𝐒𝐭𝐫𝐞𝐚𝐦𝐬 𝐣𝐮𝐬𝐭 𝐚 𝐜𝐨𝐥𝐥𝐞𝐜𝐭𝐢𝐨𝐧 𝐨𝐟 𝐥𝐚𝐦𝐛𝐝𝐚 𝐟𝐮𝐧𝐜𝐭𝐢𝐨𝐧𝐬?
+❌ 𝐍𝐨! Streams are an abstraction for data processing, not just a collection of lambda functions.
+✔ 𝐉𝐮𝐬𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧: Streams provide a pipeline for functional-style operations, where lambda expressions are used within streams but do not define them.
+
+𝟐️. 𝐀𝐫𝐞 𝐒𝐭𝐫𝐞𝐚𝐦𝐬 𝐜𝐚𝐭𝐞𝐠𝐨𝐫𝐢𝐳𝐞𝐝 𝐢𝐧𝐭𝐨 𝐭𝐰𝐨 𝐭𝐲𝐩𝐞𝐬?
+❌ 𝐍𝐨! Streams themselves are not categorized, but their operations are.
+✔ 𝐉𝐮𝐬𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧: Streams consist of 𝐈𝐧𝐭𝐞𝐫𝐦𝐞𝐝𝐢𝐚𝐭𝐞 (lazy) and 𝐓𝐞𝐫𝐦𝐢𝐧𝐚𝐥 (final execution) operations, but the stream itself does not have "types."
+
+𝟑️. 𝐃𝐨𝐞𝐬 𝐟𝐢𝐥𝐭𝐞𝐫( ) 𝐫𝐞𝐦𝐨𝐯𝐞 𝐝𝐚𝐭𝐚 𝐟𝐫𝐨𝐦 𝐭𝐡𝐞 𝐨𝐫𝐢𝐠𝐢𝐧𝐚𝐥 𝐬𝐨𝐮𝐫𝐜𝐞?
+❌ 𝐍𝐨! 𝐟𝐢𝐥𝐭𝐞𝐫( ) does NOT modify the original collection.
+✔ 𝐉𝐮𝐬𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧: It creates a new stream containing only the elements that match the condition, but the original data remains unchanged.
+
+𝟒️. 𝐈𝐬 𝐭𝐡𝐞𝐫𝐞 𝐧𝐨 𝐛𝐚𝐬𝐢𝐜 𝐝𝐢𝐟𝐟𝐞𝐫𝐞𝐧𝐜𝐞 𝐛𝐞𝐭𝐰𝐞𝐞𝐧 𝐈𝐧𝐭𝐞𝐫𝐦𝐞𝐝𝐢𝐚𝐭𝐞 𝐚𝐧𝐝 𝐓𝐞𝐫𝐦𝐢𝐧𝐚𝐥 𝐎𝐩𝐞𝐫𝐚𝐭𝐢𝐨𝐧𝐬?
+❌ 𝐖𝐫𝐨𝐧𝐠! There’s a clear distinction.
+✔ 𝐉𝐮𝐬𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧:
+𝐈𝐧𝐭𝐞𝐫𝐦𝐞𝐝𝐢𝐚𝐭𝐞 𝐎𝐩𝐞𝐫𝐚𝐭𝐢𝐨𝐧𝐬 → 𝐋𝐚𝐳𝐲, return a new stream, and do not execute immediately.
+𝐓𝐞𝐫𝐦𝐢𝐧𝐚𝐥 𝐎𝐩𝐞𝐫𝐚𝐭𝐢𝐨𝐧𝐬 → 𝐓𝐫𝐢𝐠𝐠𝐞𝐫 execution, consume the stream, and produce a final result.
+
+𝟓️. 𝐃𝐨𝐞𝐬 𝐨𝐯𝐞𝐫𝐮𝐬𝐢𝐧𝐠 𝐒𝐭𝐫𝐞𝐚𝐦𝐬 𝐫𝐞𝐝𝐮𝐜𝐞 𝐫𝐞𝐚𝐝𝐚𝐛𝐢𝐥𝐢𝐭𝐲?
+❌ 𝐍𝐨𝐭 𝐧𝐞𝐜𝐞𝐬𝐬𝐚𝐫𝐢𝐥𝐲! Streams enhance readability in most cases.
+✔ 𝐉𝐮𝐬𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧: Streams remove boilerplate code (e.g., loops), making the code cleaner. However, deeply nested and complex pipelines can reduce clarity.
+
+𝟔️. 𝐀𝐫𝐞 𝐒𝐭𝐫𝐞𝐚𝐦𝐬 𝐀𝐥𝐰𝐚𝐲𝐬 𝐚 𝐆𝐨𝐨𝐝 𝐂𝐡𝐨𝐢𝐜𝐞 𝐟𝐨𝐫 𝐒𝐦𝐚𝐥𝐥 𝐃𝐚𝐭𝐚 𝐒𝐞𝐭𝐬?
+❌ 𝐍𝐨𝐭 𝐚𝐥𝐰𝐚𝐲𝐬! Streams improve readability but aren’t always necessary.
+✔ 𝐉𝐮𝐬𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧:
+For transformations (filtering, mapping, sorting) → Streams provide better readability.
+For simple iterations (counting, summing) → Traditional loops might be more efficient.
+
+𝟕️. 𝐈𝐬 𝐏𝐚𝐫𝐚𝐥𝐥𝐞𝐥 𝐏𝐫𝐨𝐜𝐞𝐬𝐬𝐢𝐧𝐠 𝐀𝐥𝐰𝐚𝐲𝐬 𝐭𝐡𝐞 𝐁𝐞𝐬𝐭 𝐂𝐡𝐨𝐢𝐜𝐞?
+❌ 𝐍𝐨! Parallel streams can hurt performance if misused.
+✔ 𝐉𝐮𝐬𝐭𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧:
+Use parallel streams when working with large datasets and independent operations.
+Avoid parallel streams for small data, order-sensitive tasks, or dependent computations.
+
+🚀 𝐅𝐢𝐧𝐚𝐥 𝐓𝐚𝐤𝐞𝐚𝐰𝐚𝐲𝐬
+✅ Streams enhance readability but aren’t always needed.
+✅ Know the difference between Intermediate & Terminal operations.
+✅ Parallel processing isn’t always faster—test before using!
+
+https://www.linkedin.com/posts/paras-gupta-0042b01b0_java-streamsapi-java8-activity-7308676249273409536-6Gx1?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARSzbgBGEbWHnTkxyPnkFaeZcnK-pW0lqg
