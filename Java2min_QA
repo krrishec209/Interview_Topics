@@ -1,0 +1,38 @@
+Interviewer: "You have 2 minutes. Brief 𝗦𝘁𝗿𝗲𝗮𝗺𝘀 in Java". 
+My answer: Challenge accepted, Let's go!
+
+A 𝐒𝐭𝐫𝐞𝐚𝐦 in Java is a 𝐩𝐢𝐩𝐞𝐥𝐢𝐧𝐞 𝐨𝐟 𝐝𝐚𝐭𝐚 𝐞𝐥𝐞𝐦𝐞𝐧𝐭𝐬 that supports 𝐟𝐮𝐧𝐜𝐭𝐢𝐨𝐧𝐚𝐥 𝐨𝐩𝐞𝐫𝐚𝐭𝐢𝐨𝐧𝐬 like 𝐦𝐚𝐩( ), 𝐟𝐢𝐥𝐭𝐞𝐫( ), and 𝐫𝐞𝐝𝐮𝐜𝐞( ) — designed for 𝐜𝐥𝐞𝐚𝐧, 𝐜𝐨𝐧𝐜𝐢𝐬𝐞, 𝐚𝐧𝐝 𝐞𝐟𝐟𝐢𝐜𝐢𝐞𝐧𝐭 data processing.
+
+Unlike collections, 𝐒𝐭𝐫𝐞𝐚𝐦𝐬:
+❌ 𝐃𝐨 𝐧𝐨𝐭 𝐬𝐭𝐨𝐫𝐞 𝐝𝐚𝐭𝐚, only process it.
+⚙️ Use 𝐥𝐚𝐳𝐲 𝐞𝐯𝐚𝐥𝐮𝐚𝐭𝐢𝐨𝐧.
+🔁 Support 𝐬𝐞𝐪𝐮𝐞𝐧𝐭𝐢𝐚𝐥 𝐨𝐫 𝐩𝐚𝐫𝐚𝐥𝐥𝐞𝐥 processing.
+🔒 Are 𝐬𝐢𝐧𝐠𝐥𝐞-𝐮𝐬𝐞 – once consumed, cannot be reused.
+
+🔹 𝐊𝐞𝐲 𝐎𝐩𝐞𝐫𝐚𝐭𝐢𝐨𝐧𝐬:
+𝐈𝐧𝐭𝐞𝐫𝐦𝐞𝐝𝐢𝐚𝐭𝐞 (𝐥𝐚𝐳𝐲):
+ -> 𝐦𝐚𝐩( ), 𝐟𝐢𝐥𝐭𝐞𝐫( ), 𝐬𝐨𝐫𝐭𝐞𝐝( ), 𝐝𝐢𝐬𝐭𝐢𝐧𝐜𝐭( ), 𝐥𝐢𝐦𝐢𝐭( ), 𝐬𝐤𝐢𝐩( ), 𝐩𝐞𝐞𝐤( )
+
+𝐓𝐞𝐫𝐦𝐢𝐧𝐚𝐥 (𝐭𝐫𝐢𝐠𝐠𝐞𝐫𝐬 𝐞𝐱𝐞𝐜𝐮𝐭𝐢𝐨𝐧):
+ -> 𝐜𝐨𝐥𝐥𝐞𝐜𝐭( ), 𝐜𝐨𝐮𝐧𝐭( ), 𝐫𝐞𝐝𝐮𝐜𝐞( ), 𝐟𝐨𝐫𝐄𝐚𝐜𝐡( ), 𝐟𝐢𝐧𝐝𝐅𝐢𝐫𝐬𝐭( ), 𝐚𝐧𝐲𝐌𝐚𝐭𝐜𝐡( )
+
+🔹 𝐒𝐭𝐫𝐞𝐚𝐦 𝐂𝐫𝐞𝐚𝐭𝐢𝐨𝐧:
+From collections: 𝐥𝐢𝐬𝐭.𝐬𝐭𝐫𝐞𝐚𝐦( )
+From values: 𝐒𝐭𝐫𝐞𝐚𝐦.𝐨𝐟(...)
+
+🔹 𝐏𝐚𝐫𝐚𝐥𝐥𝐞𝐥 𝐒𝐭𝐫𝐞𝐚𝐦𝐬?
+ ✅ Great for large data.
+ ❌ Avoid if dataset is small or ordering matters.
+
+🚀 𝐁𝐞𝐬𝐭 𝐔𝐬𝐞-𝐂𝐚𝐬𝐞𝐬:
+ ✔ When chaining improves clarity
+ ✔ When lazy/parallel processing boosts efficiency
+ ✔ When cleaner than loops
+
+𝐁𝐨𝐭𝐭𝐨𝐦 𝐋𝐢𝐧𝐞:
+ Streams = 𝐏𝐨𝐰𝐞𝐫 + 𝐑𝐞𝐚𝐝𝐚𝐛𝐢𝐥𝐢𝐭𝐲, but use them wisely! 🔥
+
+𝐅𝐨𝐮𝐧𝐝 𝐢𝐭 𝐡𝐞𝐥𝐩𝐟𝐮𝐥?
+For more such Java nuggets, follow Paras Gupta and feel free to share your use cases in the comments! 🙌
+
+https://www.linkedin.com/posts/paras-gupta-0042b01b0_java-streamsapi-javastreams-activity-7346045511386218500-mBff?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARSzbgBGEbWHnTkxyPnkFaeZcnK-pW0lqg
