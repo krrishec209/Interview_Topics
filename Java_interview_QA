@@ -384,3 +384,94 @@ Q10. How would you group a list of objects by a specific property using streams?
 │ • Aggregate → collect(), reduce(), count() ...
 
 https://www.linkedin.com/posts/shivani-rai-848249210_java-stream-javainterview-activity-7345031319556407296-MVca?utm_source=share&utm_medium=member_desktop&rcm=ACoAAARSzbgBGEbWHnTkxyPnkFaeZcnK-pW0lqg
+
+
+**********************
+
+📢 Preparing for a Java Backend Interview? These are must-know questions that frequently appear in real interviews!
+Whether you're aiming for roles in Java Development, Microservices, or Spring Boot-based systems, this list will help you master core Java concepts.
+
+🎯 35 Most Asked Java Collections & Java 8 Interview Questions (Real Interview Focus 🚀)
+👇 Save it, share it, or use it as your prep checklist:
+
+
+🔹 Java Collections Framework
+
+1. What is the Java Collections Framework?
+
+
+2. What’s the difference between List, Set, and Map?
+
+
+3. ArrayList vs LinkedList – when to use what?
+
+
+4. HashMap vs Hashtable vs ConcurrentHashMap
+
+
+5. How does HashMap work internally?
+
+
+6. HashSet vs TreeSet – key differences
+
+
+7. TreeMap vs HashMap – ordering & performance
+
+
+8. Fail-fast vs Fail-safe iterators
+
+
+9. Iterator vs ListIterator – differences and use cases
+
+
+10. Comparable vs Comparator
+
+
+11. Ways to sort a List using Comparator/Lambda
+
+
+12. What is EnumMap and when should you use it?
+
+
+13. What is WeakHashMap and its use case?
+
+
+14. Synchronized vs Concurrent collections
+
+
+15. Difference between Collection and Collections class
+
+
+🔹 Java 8 Features
+
+✨ Lambda & Functional Interfaces
+16. What is a Lambda Expression?
+17. What is a Functional Interface?
+18. Examples of built-in functional interfaces (e.g., Predicate, Function, Consumer)
+19. Purpose of @FunctionalInterface annotation
+20. Lambda vs Anonymous class
+
+
+✨ Stream API
+
+21. What is Stream API and its advantages?
+22. Stream vs Collection
+23. Intermediate vs Terminal operations
+24. Common methods: filter(), map(), reduce(), collect(), sorted()
+25. map() vs flatMap()
+
+
+✨ Optional Class
+
+26. What is Optional and how does it prevent NullPointerException?
+27. Key methods: of(), ofNullable(), isPresent(), ifPresent(), orElse(), orElseGet(), orElseThrow()
+28. Difference between orElse() and orElseGet()
+
+✨ Method & Constructor References
+29. What are Method References?
+30. Types of Method References
+31. Constructor reference using ClassName::new
+
+✨ Date and Time API
+32. New date/time classes: LocalDate, LocalDateTime, ZonedDateTime, Period, Duration
+33. Differences between old java.util.Date and new java.time API
