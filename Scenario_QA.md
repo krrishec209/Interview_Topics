@@ -211,5 +211,44 @@ https://lnkd.in/p/gm8CSb4s
 
 *******************
 
+
+Singleton Looks Easy — Until the Interviewer Goes Deeper
+
+Most developers know how to create a Singleton.
+
+Senior interviews test whether you know how it can break.
+
+Try these tricky Singleton questions:
+
+1. Can reflection break a Singleton? How would you prevent it?
+2. Can serialization and deserialization create a second Singleton instance?
+3. Can cloning break a Singleton?
+4. Why is volatile required in double-checked locking?
+5. What can go wrong if volatile is removed from a double-checked Singleton?
+6. Why is synchronizing the entire getInstance() method potentially slower?
+7. Why is the Initialization-on-Demand Holder pattern thread-safe?
+8. Why is an enum Singleton considered one of the safest implementations?
+9. Can different ClassLoaders create multiple instances of the same Singleton?
+10. Can a Singleton guarantee only one instance across multiple JVMs?
+11. Is a Singleton automatically thread-safe just because only one instance exists?
+12. How can mutable state inside a Singleton create concurrency problems?
+13. Why can Singleton make unit testing difficult?
+14. What happens to a Singleton when an application is redeployed?
+15. What happens if Singleton initialization throws an exception?
+16. Can a private Singleton constructor still be invoked using reflection?
+17. How does the Java Memory Model affect double-checked locking?
+18. What is the difference between a static Singleton, Holder Singleton, and enum Singleton?
+19. How would you design a Singleton that must survive reflection, serialization, and cloning attacks?
+20. Would you use Singleton for a database connection pool in a microservices application? Why or why not?
+
+The tricky part isn’t creating a Singleton.
+
+It’s understanding:
+
+Thread Safety → Java Memory Model → ClassLoaders → Reflection → Serialization → Lifecycle
+
+That’s what senior-level Java interviews test.
+
+https://lnkd.in/p/gwCuibhF
 https://www.java-success.com/java-scenarios-based-interview-questions-answers/
 https://www.java-success.com/category/key-areas/0003-16-key-areas/03-yl-judgingexperience/
