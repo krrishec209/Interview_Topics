@@ -475,3 +475,74 @@ Whether you're aiming for roles in Java Development, Microservices, or Spring Bo
 ✨ Date and Time API
 32. New date/time classes: LocalDate, LocalDateTime, ZonedDateTime, Period, Duration
 33. Differences between old java.util.Date and new java.time API
+
+******************
+
+My Java Developer Interview — Questions I Faced
+I recently attended a Java Developer interview and I wanted to share the technical questions that were discussed. Posting here so it may help others who are preparing 😊
+1. How does @RequestBody work in Spring Boot?
+2.Explain the complete flow of how a table is created in the database using Java, Spring Boot, and JPA — starting from defining an Entity class up to how it becomes a table in SQL.
+3.What are the purposes of the @Service and @Repository annotations in Spring, how does Spring treat them internally, and what is the typical request flow involving these layers?
+4. In threads, what is the difference between the NEW state and the ACTIVE/RUNNABLE state?
+5.What is the difference between Fail-Fast and Fail-Safe iterators?
+6.What is a ConcurrentHashMap and why do we use it?
+7.What is an API Gateway in microservices?
+8.Using Java Streams, how do you filter employees whose salary is greater than a given value?
+9.Using Java Streams, how do you find the average salary of all employees?
+10.Using Java Streams, how do you group employees by department?
+11. How do you perform the same group-by-department operation in SQL?
+12.What is a Self Join in SQL and where is it used?
+13. In the below try–catch–finally block, which blocks will execute and what will be the output?
+public String getValue() {
+ try {
+ System.out.println("Try block executed");
+ } catch (Exception e) {
+ System.out.println("Catch block executed");
+ } finally {
+ System.out.println("Finally block is executed");
+ }
+ return "Done";
+ }
+14.What do you know about Microservices architecture?
+
+Top Java + Spring Boot Interview Questions You Must Prepare
+If you’re preparing for a Java Spring Boot interview, here’s a solid checklist that can help you revise faster:
+🔹 Core Java
+	1.	Difference between HashMap, LinkedHashMap, and ConcurrentHashMap.
+	2.	How does Java handle memory management (Heap vs Stack, GC)?
+	3.	What are Streams & Lambda expressions in Java 8?
+	4.	Explain immutability in Java with examples (String, Integer).
+	5.	Difference between final, finally, and finalize().
+🔹 Spring Core
+6. What is Dependency Injection and how does Spring implement it?
+7. Difference between @Component, @Service, and @Repository.
+8. What is ApplicationContext vs BeanFactory?
+9. Explain Bean scopes (singleton, prototype, etc.).
+10. What are Spring AOP concepts (JoinPoint, Advice, Aspect)?
+🔹 Spring Boot
+11. What are the advantages of Spring Boot over Spring?
+12. How does application.properties / application.yml work?
+13. Difference between @RestController and @Controller.
+14. What is Spring Boot Starter?
+15. How does Spring Boot Auto-Configuration work?
+🔹 Microservices
+16. How does communication happen between microservices (REST, Kafka, gRPC)?
+17. What is API Gateway & Service Discovery (Eureka, Consul)?
+18. Difference between Monolith vs Microservice architecture.
+19. How do you handle configuration management in microservices (Spring Cloud Config)?
+20. How do you secure microservices (JWT, OAuth2)?
+🔹 Database & JPA
+21. Difference between Hibernate and JPA.
+22. How does @Entity mapping work in Spring Data JPA?
+23. Explain Lazy vs Eager fetching.
+24. How to handle transactions in Spring (@Transactional)?
+25. What are JPQL vs Native Queries?
+🔹 Best Practices & Extras
+26. How to implement exception handling in Spring Boot?
+27. How do you write Unit Tests for Controllers and Services?
+28. What is the role of Docker & Kubernetes in microservices deployment?
+29. Explain CI/CD pipelines for Spring Boot apps (Jenkins/GitHub Actions).
+30. How do you optimize performance in large Spring Boot applications?
+
+
+https://lnkd.in/p/gJ9UDjpb
